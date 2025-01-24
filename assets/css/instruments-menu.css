@@ -1,0 +1,59 @@
+.img-instrus {
+    width: 90%;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-instrument {
+    margin-block: 10%;
+}
+
+
+
+h3 {
+    text-align: center;
+}
+
+/* tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+th,
+td {
+    padding: 6px; 
+    border: 1px solid rgb(140, 138, 138);
+}
+th {
+    background-color: #3c4cc3;
+    color: white;
+}
+
+.title-two{
+    text-align: center;
+    margin-block: 7%;
+}
+
+@media (min-width: 768px) {
+.instrument-vignette{
+    display: flex; 
+    
+}
+.img-instrus{
+    width: 50%;
+    margin: 0;
+    
+}
+a{
+    width: min-content;
+}
+}
+@media (min-width: 1024px) {}

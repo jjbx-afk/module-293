@@ -1,0 +1,24 @@
+.audio-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 5%;
+    color: #555;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+audio {
+    width: 100%;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+}
+
+.title-description{
+    font-size: x-small;
+    text-align: center;
+    margin-top: 0;
+}
+
