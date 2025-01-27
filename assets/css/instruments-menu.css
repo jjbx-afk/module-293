@@ -45,15 +45,44 @@ th {
 @media (min-width: 768px) {
 .instrument-vignette{
     display: flex; 
-    
 }
 .img-instrus{
     width: 50%;
     margin: 0;
     
 }
+
 a{
     width: min-content;
 }
 }
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+
+
+
+
+.vignette{
+    border: 1px solid #444444;
+    border-radius: 16px;
+    padding: 0;
+    
+}
+
+/* .wrapper-vignette{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+.line-vignette{
+    display:flex;
+    width: 100%;
+}
+
+a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+}
