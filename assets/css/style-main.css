@@ -47,7 +47,7 @@ a:active {
 
 .logo {
     width: 15%;
-    padding: 2%;
+    padding: 3%;
 }
 
 .navigation-links {
@@ -108,19 +108,26 @@ nav-ul {
 }
 
 footer {
-    background-color: #ecf2ef;
-    margin-top: 15%;
+    background-color: #fdffa8;
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
 }
 
 .footer-ul {
-    width: 80%;
     display: flex;
-    justify-content: space-between;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 span {
     margin-left: 2%;
+    color: #0000004a;
+
 }
 
 .end-page {
